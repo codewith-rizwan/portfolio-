@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/8b44cca2c5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+  </head>
+  <body>
+    <div id="header">
+      <div class="cointainar">
+        <nav>
+          <span id="wsite-title">RIZWAN KHAN-UI/UX DESIGNER</span>
+          <ul id="sidemenu" onmouseout="closemenu()">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <img class="img1" src="bg-img.png" alt="#" />
+        <div class="text-about">
+          <h1>
+            Hi , I'm <span>Rizwan Khan</span> <br />
+            From India
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!----------------------------------------About ---------------------------------->
+    <div id="about">
+      <img src="" alt="">
+      <div class="container">
+        <div class="raw">
+          <div class="about-col01">
+           <img src="Screenshot (22).png" alt="">
+          </div>
+          <div class="about-col02">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              I'm working on a professional , visually sophisticated and
+              technologically proficient , responsive and multi-functional React
+              Components.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+              <p class="tab-links" onclick="opentab('Education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI Web Technologies.</span></BR> HTML5 , CSS3 , BOOTSTRAP , JavaScript , ES6 <br> React Js ,
+                  Express Js , Node Js , </li>
+                <li><span>IDE Editor</span></BR> Notepad++ , visual Studio Code</li>
+                <li><span>Database</span></BR> MongoDB , SQL </li>
+                <li><span>Frameworks</span></BR> Angular Js , Node Js </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="Experience">
+              <ul>
+                <li><span>2022 - Current</span></BR> Frount End Developer </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="Education">
+              <ul>
+                <li><span>2021</span></BR> BE from MKCT Akola,(MH)<br><span>Parsentage 69%</span> </li>
+                <li><span>2017</span></BR> HSC From Shah Babu Junier College Patur , Akola ,
+                  (MH) <br><span>Parsentage 74%</span></li>
+                <li><span>2015</span></BR> SSC From Shah Babu High School , Akola ,
+                  (MH)<br><span>Parsentage 77%</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-----------------------------------------services---------------------------------------------->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title"> My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fas fa-code"></i>
+            <h2>Web Design</h2>
+            <p>The effective websites that capture your brand, improved your conversion rates, and maximize your revenue to help grow your business and achieve your goals. Learn more about  website design services below..</p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fas fa-crop-alt" ></i>
+            <h2>UI/UX Design</h2>
+            <p>UI/UX services that include branding, responsive web design, type design, user experience consulting, and promotional designs using the latest tools and technologies.</p>
+            <a href="#">
+              Learn more</a>
+          </div>
+          <div>
+            <i class="fab fa-app-store"></i>
+            <h2>App Design</h2>
+            <p>Custom design for native iOS or Android apps follows comprehensive design guidelines, while hybrid apps can be designed to work for any experience.</p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <!---------------------------portfolio------------------------------------------------------>
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">
+          My Work
+        </h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="work-1.png">
+            <div class="layer">
+              <h3>Social Media App</h3>
+              <p>The app connects you the talented people around the world.Download it from play store.</p>
+              <a href="#">
+                <i class="fas fa-external-link-alt"></i>
+              </a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="work-2.png">
+            <div class="layer">
+              <h3>Music App</h3>
+              <p>The app connects you the talented people around the world.Download it from play store.</p>
+              <a href="#">
+                <i class="fas fa-external-link-alt"></i>
+              </a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="work-3.png">
+            <div class="layer">
+              <h3>Online shopping App</h3>
+              <p>The app connects you the talented people around the world.Download it from play store.</p>
+              <a href="#">
+                <i class="fas fa-external-link-alt"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+    <!----------------------------contact------------------------------->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fas fa-paper-plane"></i>rizwankhan902830@gmail.com</p>
+            <p><i class="fas fa-phone-alt"></i>9028301174</p>
+            <div class="social-icons">
+              <a href=""><i class="fab fa-twitter"></i></a>
+              <a href=""><i class="fab fa-linkedin"></i></a>
+              <a href=""><i class="fab fa-instagram"></i></a>
+              <a href=""><i class="fab fa-facebook"></i></a>
+            </div>
+            <a href="rizwankhan. Resume.pdf" download class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form>
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="email" name="email" placeholder="Your Email" required>
+              <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+  
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>copyright &copy; Rizwan Khan</p>
+      </div>
+    </div>
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+      if (sidemenu.style.right = "-20rem") {
+        function openmenu() {
+          sidemenu.style.right = "0";
+        }
+      }
+      function closemenu() {
+        sidemenu.style.right = "-20rem";
+      }
+      
+        </script>
+  
+  </body>
+</html>
